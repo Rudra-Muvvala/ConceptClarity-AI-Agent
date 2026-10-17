@@ -551,7 +551,7 @@ CONFETTI_JS = """(txt) => {
 
 HERO_HTML = """<div class="cc-hero"><div class="cc-orb o1"></div><div class="cc-orb o2"></div><div class="cc-orb o3"></div>
 <div class="cc-badge">\u2726 ADAPTIVE AI TUTOR</div>
-<h1 class="cc-title">Concept<span>Clarity</span></h1>
+<h1 class="cc-title">ConceptClarity</h1>
 <p class="cc-sub">Any concept, taught the way <em>you</em> learn. Why \u2192 What \u2192 How \u2192 Diagram \u2192 Examples \u2192 Quiz. Miss something? I re-teach it in a brand-new style.</p></div>"""
 
 FOOT_HTML = '<div class="cc-foot">\u2726 BUILT WITH GRADIO \u00b7 GEMINI \u00b7 GROQ \u2726</div>'
