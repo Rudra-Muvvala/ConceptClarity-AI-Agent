@@ -1257,4 +1257,7 @@ with gr.Blocks(css=CSS, theme=THEME, title="ConceptClarity", js=LOAD_JS) as demo
     result.change(None, [result], None, js=CONFETTI_JS)   # confetti when you pass
 
 demo.queue(default_concurrency_limit=8)
-demo.launch()  # Public hosting configures the URL; do not enable debug mode.
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", "10000"))
+)  # Public hosting configures the URL; do not enable debug mode.
